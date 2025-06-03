@@ -29,7 +29,7 @@ while (sexo != 'F') and (sexo != 'M'):
 # Valida o estado civil
 estado_civil = 'A'
 while ('SCVD'.find(estado_civil) < 0):
-    estado_civil = input('Informe o estado civil: ').upper()
+    estado_civil = input('Informe o seu estado civil: ').upper()
     if ('SCVD'.find(estado_civil) < 0):
         print('Estado civil deve ser informado como S (solteiro), C (casado),'\
             ' V (viuvo) ou D (divorciado)')
